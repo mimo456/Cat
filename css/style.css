@@ -60,6 +60,8 @@ header{
     display:none;
 }
 
+
+
 ul.parent{
     /*ヘッダーのリスト*/
     list-style-type: none;
@@ -424,10 +426,6 @@ border:solid 3px red;
     h1 {
         font-size: 2em;
         margin: 0.2em 0;
-    }
-
-    .br-margin{
-        margin-bottom:1px;
     }
 
     .fas.fa-align-justify{
