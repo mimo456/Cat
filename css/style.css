@@ -55,6 +55,11 @@ header{
     margin-right: 727px;
 }
 
+/*タブレットサイズから改行するように設定*/
+.br-sp{
+    display:none;
+}
+
 ul.parent{
     /*ヘッダーのリスト*/
     list-style-type: none;
@@ -103,7 +108,7 @@ ul .parent h2{
     font-size:24px;
 }
 
-.reigai{
+#reigai{
     font-size:24px;
 }
 
@@ -309,7 +314,7 @@ ul .parent h2{
     color:#FFFFFF;
     font-weight: bold;
     border-bottom:1px solid #ffffff;
-} 
+}
 
 .footer-txt{
     font-size: 16px;
@@ -330,7 +335,7 @@ ul .parent h2{
     width:95%;
     display: flex;
     justify-content: space-between;
-    margin:0 auto; 
+    margin:0 auto;
 }
 
 .footer-bottom-logo img{
@@ -404,11 +409,25 @@ border:solid 3px red;
         display: flex;
         justify-content: space-between;
     }
-    
+
     .header-container img{/*ヘッダーのロゴ*/
         margin:23px 0 25px 0;
         margin-right:0px;
         margin-left:150px;
+    }
+
+    /*sanitizeの設定を一部上書き*/
+    .br-sp{
+        display:block;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin: 0.2em 0;
+    }
+
+    .br-margin{
+        margin-bottom:1px;
     }
 
     .fas.fa-align-justify{
@@ -424,7 +443,7 @@ border:solid 3px red;
         height:450px;
         margin:78px 75px 52px 75px;
     }
-    
+
     .white-block p{
         font-size:17px;
         line-height: 34px;
@@ -454,11 +473,10 @@ border:solid 3px red;
         display: none;
     }
 
-    
     .footer-block2{
         width:300px;
     }
-    
+
     .footer-group{
         height:auto;
     }
@@ -468,20 +486,19 @@ border:solid 3px red;
         height:500px;
         width: 100%;
 
-    
     }
     .footer-bottom-txt{
         display: flex;
         margin:0 auto;
     }
-    
+
     .footer-bottom-block{
         width:95%;
         display: flex;
         flex-direction:row;
         flex-wrap: wrap;
         justify-content:flex-start;
-        margin:0 auto; 
+        margin:0 auto;
     }
 
     .txt{
@@ -543,7 +560,7 @@ border:solid 3px red;
         height:auto;
         margin-top:50px;
     }
-    
+
     /*CATの大ロゴ*/
     .body-logo{
         top:130px;
@@ -596,7 +613,6 @@ border:solid 3px red;
         display: none;
     }
 
-    
     /*スマートフォンサイズの文字入力幅*/
     .same-width{
         width:350px;
@@ -621,7 +637,7 @@ border:solid 3px red;
         line-height:34px;
     }
 
-    section.reigai{
+    #reigai{
         font-size:21px;
         line-height:34px;
     }
@@ -638,9 +654,6 @@ border:solid 3px red;
     .btn{
         margin-right:0;
     }
-
-
-    
 
     .footer-container-top{
         /*余白の調整*/
@@ -720,7 +733,7 @@ border:solid 3px red;
     .btn{
         margin-right:0;
     }
-    
+
     .footer-block1{
         width:300px;
         height:190px;
@@ -734,7 +747,7 @@ border:solid 3px red;
         padding-top:100px;
         margin-right:0;
     }
-    
+
     .footer-block3{
         width:300px;
         height:190px;
@@ -748,7 +761,75 @@ border:solid 3px red;
         float: right;
         margin-top:3px;
     }
+
+    .same-width{
+        width:300;
+    }
+
+    .body-txt-top h1{
+        font-weight:200;
+    }
+
+    .body-txt-top section p{
+        font-size:18px;
+    }
+
+    #reigai{
+        font-size:18px;
+    }
+
+    .body-txt-top section{
+        margin-bottom:100px;
+        line-height:25px;
+    }
+
+    .second-block-txt>p{
+        font-size:18px;
+    }
+
+    .date{
+        font-size:15.5px;
+    }
+
+    .info-block-detail>p{
+        font-size:13px;
+    }
+
+    .footer-container-top{
+        /*余白の調整*/
+        margin-top:0;
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+    }
+
+    .info-logo{
+        /*余白の調整*/
+        font-size:40px;
+        line-height: 68px;
+        margin-top:130px;
+        margin-bottom:100px;
+        text-align: center;
+    }
+
+    .info-block-detail{
+        padding-bottom:29px;
+    }
+
+    .cat2-1 p{
+        height:100px;
+        width:100%;
+        font-size:18px;
+        line-height: 30px;
+        margin:50px 0 100px 0;
+    }
+
+    .cat2-2 p{
+        height:100px;
+        width:100%;
+        font-size:18px;
+        line-height: 30px;
+        margin:50px 0 100px 0;
+    }
 }
-/*確認用
-border:solid 1px red;
-*/
