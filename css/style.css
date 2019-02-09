@@ -100,6 +100,7 @@ ul .parent h2{
 .same-width{
     width:980px;/*ヘッダー以外や背景画像以外の幅を統一する*/
     margin:0 auto;
+    border:solid 3px red;
 }
 
 .body-txt-top section h1{
@@ -387,14 +388,18 @@ ul .parent h2{
     border:solid 3px red;
 }
 
-/*cat1～3の写真*/
+/*----------------------------cat1～3の写真----------------------------------*/
 .cat-picture img{
     margin:0 auto;
-    padding-top:100px;
+    padding-top:0;
     width:600px;
     height:auto;
 }
 
+.cat-same-width{
+    width:500px;
+    margin:0 auto;
+}
 
 /*確認用
 border:solid 3px red;
@@ -418,14 +423,13 @@ border:solid 3px red;
         margin-left:150px;
     }
 
-    /*sanitizeの設定を一部上書き*/
     .br-sp{
         display:block;
     }
-
+    /*sanitizeの設定を一部上書き*/
     h1 {
         font-size: 2em;
-        margin: 0.2em 0;
+        margin: 0.2em;
     }
 
     .fas.fa-align-justify{
@@ -689,14 +693,19 @@ border:solid 3px red;
         display: flex;
     }
 
-    /*cat1～3の写真*/
+    /*-------------------------------------cat1～3の写真---------------------------*/
     .cat-picture img{
         margin:0 auto;
-        padding-top:100px;
+        padding-top:0;
         width:100%;
         height:auto;
     }
-    /*--------------スマホサイズのズレの原因除去-----------------*/
+
+    .cat-same-width{
+        width:350px;
+        margin:0 auto;
+    }
+    /*-------------------------スマホサイズのズレの原因除去---------------------------*/
     .second-block-img img{
         width:100%;
     }
