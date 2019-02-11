@@ -377,14 +377,14 @@ ul .parent h2{
 .contact-form{
     width:100%;
     height:auto;
-    border:solid 3px red;
+    border:solid 1px rgb(231, 230, 230,0);
 }
 
 .form-box-top{
     margin:80px auto 0;
     width:100%;
     height:70px;
-    border:solid 3px #333333;
+    border:solid 2px #333333;
     display: flex;
 }
 
@@ -416,13 +416,18 @@ ul .parent h2{
     background-color:rgb(231, 230, 230);
 }
 
+/*ロゴと記入する場所の位置設定*/
 .form-innner-container{
-    width:80%;
+    width:90%;
     margin:0 auto;
 }
 
 .form-input{
     margin-top:50px;
+}
+/*inputの幅の調整*/
+input{
+    width:50%;
 }
 
 .form-space{
@@ -430,8 +435,32 @@ ul .parent h2{
 }
 
 .contact-form-textarea{
-    width:60%;
+    width:50%;
     height:150px;
+}
+/*わかりやすいように必須と任意マークを作る*/
+.important{
+    margin-left:15px;
+    background-color:rgb(233, 23, 19);
+    padding:5px;
+    color:white;
+    font-weight:bold;
+    border-radius:3px;
+}
+
+.optional{
+    margin-left:15px;
+    background-color:rgb(24, 24, 194);
+    padding:5px 5px 0 5px;
+    color:white;
+    font-weight:bold;
+    border-radius:3px;
+}
+
+textarea{
+    /*pタグを外すと要素が浮くのでblockにしている。*/
+    display:block;
+    margin-top:1.5px;
 }
 
 /*----------------------------cat1～3の写真----------------------------------*/
@@ -942,6 +971,11 @@ border:solid 3px red;
     .contact-form-textarea{
         width:100%;
         height:150px;
+    }
+
+    /*inputの幅の調整*/
+    input{
+        width:80%;
     }
 }
 /*iPhone5/SE*/
