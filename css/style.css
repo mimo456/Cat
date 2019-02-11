@@ -380,6 +380,11 @@ ul .parent h2{
     border:solid 1px rgb(231, 230, 230,0);
 }
 
+.contact-same-width{
+    width:580px;
+    margin:0 auto;
+}
+
 .form-box-top{
     margin:80px auto 0;
     width:100%;
@@ -460,7 +465,23 @@ input{
 textarea{
     /*pタグを外すと要素が浮くのでblockにしている。*/
     display:block;
-    margin-top:1.5px;
+    margin-top:2px;
+}
+
+.submit-button{
+    width:100%;
+    height:50px;
+    background-color:rgba(47, 47, 230, 0.986);
+    color:white;
+    font-weight: bold;
+    font-size: 1.2em;
+    box-shadow:0 4px gray;
+}
+
+.submit-button:active{
+    position:relative;
+    top:6px;
+    box-shadow: none;
 }
 
 /*----------------------------cat1～3の写真----------------------------------*/
@@ -472,7 +493,7 @@ textarea{
 }
 
 .cat-same-width{
-    width:600px;
+    width:550px;
     margin:0 auto;
 }
 /*boxデザインテンプレート*/
@@ -654,6 +675,11 @@ border:solid 3px red;
         width:70px;
         height:65px;
         display: flex;
+    }
+
+    .contact-same-width{
+        width:450px;
+        margin:0 auto;
     }
 }
 /*確認用
@@ -976,6 +1002,11 @@ border:solid 3px red;
     /*inputの幅の調整*/
     input{
         width:80%;
+    }
+
+    .contact-same-width{
+        width:400px;
+        margin:0 auto;
     }
 }
 /*iPhone5/SE*/
