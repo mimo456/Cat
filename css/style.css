@@ -447,7 +447,7 @@ input{
 .important{
     margin-left:15px;
     background-color:rgb(233, 23, 19);
-    padding:5px;
+    padding:3px;
     color:white;
     font-weight:bold;
     border-radius:3px;
@@ -456,7 +456,16 @@ input{
 .optional{
     margin-left:15px;
     background-color:rgb(24, 24, 194);
-    padding:5px 5px 0 5px;
+    padding:3px;
+    color:white;
+    font-weight:bold;
+    border-radius:3px;
+}
+
+.optional2{
+    margin-left:15px;
+    background-color:rgb(24, 24, 194);
+    padding:3px 3px 0 3px;
     color:white;
     font-weight:bold;
     border-radius:3px;

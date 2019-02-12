@@ -73,23 +73,25 @@
             <div class="form-inner-top">
               <br><h2>猫に関するお問い合わせはこちら。</h2>
             </div>
-            <div class="form-input">
-              <p>お名前<span class="important">必須</span><br><input></p>
-            </div>
-            <div>
-              <p>ふりがな<span class="important">必須</span><br><input></p>
-            </div>
-            <div>
-              <p>メールアドレス<span class="important">必須</span><br><input type="email"></p>
-            </div>
-            <div>
-              <p>題名<span class="optional">任意</span><br><input></p>
-            </div>
-            メッセージ本文<span class="optional">任意</span>
-            <textarea name="" class="contact-form-textarea"></textarea>
-            <div>
-              <br><input type="submit" class="submit-button">
-            </div>
+              <form action="contact-from-next" method="POST">
+                <div class="form-input">
+                  <p>お名前<span class="important">必須</span><br><input type="text" name="name"></p>
+                </div>
+                <div>
+                  <p>ふりがな<span class="important">必須</span><br><input type="name" name="kana"></p>
+                </div>
+                <div>
+                  <p>メールアドレス<span class="important">必須</span><br><input type="email" name="e-mail"></p>
+                </div>
+                <div>
+                  <p>題名<span class="optional">任意</span><br><input type="text" name="title"></p>
+                </div>
+                メッセージ本文<span class="optional2">任意</span>
+                <textarea class="contact-form-textarea" type="text" name="content"></textarea>
+                <div>
+                  <br><input type="submit" class="submit-button">
+                </div>
+              </form>
             </div>
           <div class="form-picture">
             <img src="./img/DzCAfrrUwAAGhUK (1).png" alt="パソコン映と映っているエモい猫(パール)">
