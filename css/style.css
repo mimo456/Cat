@@ -374,6 +374,7 @@ ul .parent h2{
 
 /*---------------------------Contactの設定---------------------------------*/
 
+
 .contact-form{
     width:100%;
     height:auto;
@@ -546,11 +547,6 @@ border:solid 3px red;
         right:450px;
     }
 
-    .header-container{
-        display: flex;
-        justify-content: space-between;
-    }
-
     .header-container img{/*ヘッダーのロゴ*/
         margin:23px 0 25px 0;
         margin-right:0px;
@@ -690,6 +686,10 @@ border:solid 3px red;
         width:450px;
         margin:0 auto;
     }
+
+    .form-space{
+        margin-right:0;/*タブレットサイズ以降解除*/
+    }
 }
 /*確認用
 border:solid 3px red;
@@ -763,6 +763,10 @@ border:solid 3px red;
     .header-container{
         width:100%;
         height:80%;
+    }
+
+    .drawer-list{
+        display: flex;
     }
 
     /*スマートフォンサイズの文字入力幅*/
@@ -841,10 +845,6 @@ border:solid 3px red;
         width:49px;
         height:auto;
         margin:16px 0 15px 0;
-        display: flex;
-    }
-
-    .drawer-list{
         display: flex;
     }
 
@@ -1022,6 +1022,10 @@ border:solid 3px red;
 @media screen and (max-width: 568px){
     .cat-same-width{
         width:300px;
+        margin:0 auto;
+    }
+
+    .form-box-top-center{
         margin:0 auto;
     }
 }
