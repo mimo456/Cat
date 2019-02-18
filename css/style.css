@@ -177,7 +177,7 @@ ul .parent h2{
 }
 
 .cat2-1 img{
-    height: 300px;
+    height:300px;
     width:450px;
     margin-right: 80px;
 }
@@ -420,6 +420,7 @@ ul .parent h2{
 
 .contact-from-container{
     background-color:rgb(231, 230, 230);
+    margin-top:80px;
 }
 
 /*ロゴと記入する場所の位置設定*/
@@ -872,7 +873,7 @@ border:solid 3px red;
     }
 
     .cat2-1 img{
-        height: 300px;
+        height:auto;
         margin-right:0px;
         width:100%;
     }
@@ -982,7 +983,7 @@ border:solid 3px red;
     }
 
     .info-block-detail{
-        padding-bottom:29px;
+        padding-bottom:30px;
     }
 
     .cat2-1 p{
