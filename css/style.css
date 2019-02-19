@@ -247,6 +247,7 @@ ul .parent h2{
     font-size:40px;
     line-height: 68px;
     margin-top:1150px;
+    padding-top:0;
     margin-bottom:100px;
     text-align: center;
 }
@@ -375,11 +376,7 @@ ul .parent h2{
 /*---------------------------Contactの設定---------------------------------*/
 
 
-.contact-form{
-    width:100%;
-    height:auto;
-    border:solid 1px rgb(231, 230, 230,0);
-}
+
 
 .contact-same-width{
     width:580px;
@@ -654,6 +651,7 @@ border:solid 3px red;
         margin-top:400px;
         margin-bottom:100px;
         text-align: center;
+        padding-top:80px;
     }
 
     .footer-bottom-logo img{
@@ -830,8 +828,7 @@ border:solid 3px red;
         /*余白の調整*/
         font-size:40px;
         line-height: 68px;
-        margin-top:300px;
-        margin-bottom:100px;
+        padding-top:90px;
         text-align: center;
     }
 
@@ -978,7 +975,8 @@ border:solid 3px red;
         font-size:40px;
         line-height: 68px;
         margin-top:130px;
-        margin-bottom:100px;
+        margin-bottom:50px;
+        padding-top:20px;
         text-align: center;
     }
 
@@ -1028,5 +1026,10 @@ border:solid 3px red;
 
     .form-box-top-center{
         margin:0 auto;
+    }
+
+    .same-width{
+        /*iPhoneサイズの幅の調整*/
+        width:300px;
     }
 }
