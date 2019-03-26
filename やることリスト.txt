@@ -2,6 +2,11 @@
 slideUpの導入。
 dl,dt,dd要素を作っていく。
 fontsizeをユーザーが切り替えやすいようにrem(emではない)に設定する
+自己完結型の図形にfigcaption要素とfigure要素を加える。
+section使い方確認
+input required
+orderプロパティを使って順番の変更
+引用なのでblockquoteを使う。
 
 【ファイアーフォックス】
 写真と文字を重ねる部分がおかしい
