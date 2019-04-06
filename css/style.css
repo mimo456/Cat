@@ -568,6 +568,31 @@ border:solid 3px red;
         width:500px;
     }
 
+    /*猫の画像と文章の順番の調整*/
+    .order1{
+        order:1;
+    }
+
+    .order2{
+        order:2;
+    }
+
+    .order3{
+        order:4;
+    }
+
+    .order4{
+        order:3;
+    }
+
+    .order5{
+        order:5;
+    }
+
+    .order6{
+        order:6;
+    }
+
     .white-inner-block{
         width:400px;
         height:450px;
@@ -814,6 +839,7 @@ border:solid 3px red;
     .btn{
         margin-right:0;
     }
+
 
     .footer-container-top{
         /*余白の調整*/
