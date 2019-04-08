@@ -596,7 +596,7 @@ border:solid 3px red;
     .white-inner-block{
         width:400px;
         height:450px;
-        margin:78px 75px 52px 75px;
+        margin:50px 75px 52px 75px;
     }
 
     .white-block p{
@@ -975,7 +975,7 @@ border:solid 3px red;
         line-height:25px;
     }
 
-    .second-block-txt>p{
+    .second-block-txt p{
         font-size:18px;
     }
 
