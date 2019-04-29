@@ -157,6 +157,10 @@ ul .parent h2{
     margin-right:80px;
 }
 
+.order-left{/*文字blockの位置調整*/
+    padding-left:40px;
+}
+
 .third-block{
     height:800px;
     width:100%;
@@ -179,6 +183,7 @@ ul .parent h2{
     height:300px;
     width:450px;
     margin-right: 80px;
+    margin-left:40px;
 }
 
 .cat2-1 p{
@@ -596,6 +601,10 @@ border:solid 3px red;
         margin-left:40px;
     }
 
+    .order-left{/*文字blockの位置調整*/
+    padding-left:0px;
+}
+
     .white-inner-block{
         width:400px;
         height:450px;
@@ -629,6 +638,41 @@ border:solid 3px red;
 
     .footer-block3{
         display: none;
+    }
+
+    .third-block-inner{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    }
+
+    .cat2-1 img{
+        height:auto;
+        margin-right:0px;
+        width:100%;
+        margin-left:0px;
+    }
+
+    .cat2-2 img{
+        height:auto;
+        width:100%;
+    }
+
+    .cat2-1 p{
+        height:100px;
+        width:100%;
+        font-size: 20px;
+        line-height: 30px;
+        margin:50px 0 100px 0;
+    }
+
+    .cat2-2 p{
+        height:100px;
+        width:100%;
+        font-size: 20px;
+        line-height: 30px;
+        margin:50px 0 100px 0;
     }
 
     .footer-block2{
