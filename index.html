@@ -1,275 +1,295 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>猫のサイト</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-      <div class="header-container">
-        <nav>
-          <a href="index.html" class="header-top-link" title="Home"><img src="./img/CAT-1.png" alt="トップロゴ" width="49px" height="24px"></a>
-        </nav>
-        <ul class="parent">
-          <li><a href="cat1.html" class="header-link">cat1</a></li>
-          <li><a href="cat2.html" class="header-link">cat2</a></li>
-          <li><a href="cat3.html" class="header-link">cat3</a></li>
-          <li><a href="contact.html" class="header-link">Contact</a></li>
-        </ul>
-        <div class="drawer-list">
-          <!-- drawer.css -->
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/css/drawer.min.css">
-          <!-- jquery & iScroll -->
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
-          <!-- drawer.js -->
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/js/drawer.min.js"></script>
-          <body class="drawer drawer--right">
-          <header role="banner">
-            <!-- ハンバーガーボタン -->
-            <button type="button" class="drawer-toggle drawer-hamburger">
-              <span class="sr-only">toggle navigation</span>
-              <span class="drawer-hamburger-icon"></span>
-            </button>
-            <!-- ナビゲーションの中身 -->
-            <nav class="drawer-nav" role="navigation">
-              <ul class="drawer-menu">
-                <li><a class="drawer-brand" href="#">Cat Menu</a></li>
-                <li><a class="drawer-menu-item" href="index.html">Home</a></li>
-                <li><a class="drawer-menu-item" href="cat1.html">Cat1</a></li>
-                <li><a class="drawer-menu-item" href="cat2.html">Cat2</a></li>
-                <li><a class="drawer-menu-item" href="cat3.html">Cat3</a></li>
-                <li><a class="drawer-menu-item" href="contact.html">Contact</a></li>
-              </ul>
+        <div class="header-container">
+            <nav>
+                <a href="index.html" class="header-top-link" title="Home"><img src="./img/CAT-1.png" alt="トップロゴ"
+                        width="49px" height="24px"></a>
             </nav>
-          </header>
-          <main role="main">
-            <!-- Page content -->
-          </main>
-          <!-- ドロワーメニューの利用宣言 -->
-          <script>
-            $(document).ready(function() {
-            $('.drawer').drawer();
-          });
-          </script>
+            <ul class="parent">
+                <li><a href="cat1.html" class="header-link">cat1</a></li>
+                <li><a href="cat2.html" class="header-link">cat2</a></li>
+                <li><a href="cat3.html" class="header-link">cat3</a></li>
+                <li><a href="contact.html" class="header-link">Contact</a></li>
+            </ul>
+            <div class="drawer-list">
+                <!-- drawer.css -->
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/css/drawer.min.css">
+                <!-- jquery & iScroll -->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+                <!-- drawer.js -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/js/drawer.min.js"></script>
+
+                <body class="drawer drawer--right">
+                    <header role="banner">
+                        <!-- ハンバーガーボタン -->
+                        <button type="button" class="drawer-toggle drawer-hamburger">
+                            <span class="sr-only">toggle navigation</span>
+                            <span class="drawer-hamburger-icon"></span>
+                        </button>
+                        <!-- ナビゲーションの中身 -->
+                        <nav class="drawer-nav" role="navigation">
+                            <ul class="drawer-menu">
+                                <li><a class="drawer-brand" href="#">Cat Menu</a></li>
+                                <li><a class="drawer-menu-item" href="index.html">Home</a></li>
+                                <li><a class="drawer-menu-item" href="cat1.html">Cat1</a></li>
+                                <li><a class="drawer-menu-item" href="cat2.html">Cat2</a></li>
+                                <li><a class="drawer-menu-item" href="cat3.html">Cat3</a></li>
+                                <li><a class="drawer-menu-item" href="contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </header>
+                    <main role="main">
+                        <!-- Page content -->
+                    </main>
+                    <!-- ドロワーメニューの利用宣言 -->
+                    <script>
+                        $(document).ready(function () {
+                            $('.drawer').drawer();
+                        });
+                    </script>
+            </div>
         </div>
-      </div>
     </header>
     <main>
-      <div class="body-container">
-        <div class="body-top">
-          <div class="body-top-img">
-            <img src="./img/header.png" alt="猫の横顔">
-          </div>
-        </div>
-        <div class="body-txt-top">
-          <div class="same-width">
-            <blockquote>
-              <article>
-                <section>
-                  <h1>吾輩は猫である。<br class="br-sp"><br class="br-sp">名前はまだ無い。</h1>
-                </section>
-                <section>
-                  <p>どこで生れたか頓と見當がつかぬ。<br>何でも薄暗いじめじめした所で<br>ニヤーニヤー泣いて居た事丈は記憶して居る<br> 吾輩はこゝで始めて人間といふものを見た。</p>
-                </section>
-                <section>
-                  <p>然もあとで聞くとそれは書生といふ人間中で一番獰悪な種族であつたさうだ。<br> 此書生といふのは時々我々を捕へて煮て食ふといふ話である。</p>
-                </section>
-                <section id="reigai">
-                  然し其當時は何といふ考もなかつたから別段恐しいとも思はなかつた。<br> 但彼の掌に載せられてスーと持ち上げられた時<br> 何だかフハフハした感じが有つた許りである。
-                </section>
-              </article>
-            </blockquote>
-          </div>
-        </div>
-        <div class="body-container-second">
-          <div class="same-width"><!--50%のボックスを作る。-->
-            <div class="body-container-second-logo">
-              <p>CAT1</p>
-            </div>
-            <div class="second-block">
-              <div class="second-block-img btn order1">
-                <figure>
-                  <img src="img/cat1-1.png" alt="抱かれている猫の写真">
-                </figure>
-              </div>
-              <div class="second-block-txt order2　order-left">
-                  <p>掌の上で少し落ち付いて書生の顔を見たのが所謂人間といふものゝ見始であらう。此時妙なものだと思つた感じが今でも殘つて居る。第一毛を以て装飾されべき筈の顔がつるつるして丸で薬罐だ。其後猫にも大分逢つたがこんな片輪には一度も出會はした事がない。加之顔の眞中が餘りに突起して居る。</p>
-              </div>
-              <div class="second-block-txt btn order3 order-left">
-                <p>そうして其穴の中から時々ぷうぷうと烟を吹く。どうも咽せぽくて實に弱つた。是が人間の飲む烟草といふものである事は漸く此頃知つた。此書生の掌の裏でしばらくはよい心持に坐つて居つたが、暫くすると非常な速力で運轉し始めた。書生が動くのか自分丈が動くのか分らないが無暗に眼が廻る。胸が惡くなる。</p>
-              </div>
-              <div class="second-block-img order4">
-                <figure>
-                  <img src="img/cat1-2.png" alt="二匹の猫の写真">
-                </figure>
-              </div>
-              <div class="second-block-img btn order5">
-                <figure>
-                  <img src="img/cat1-3.png" alt="あくびをしている猫の写真">
-                </figure>
-              </div>
-              <div class="second-block-txt order6 order-left">
-                <p>到底助からないと思つて居ると、どさりと音がして眼から火が出た。夫迄は記憶して居るがあとは何の事やらいくら考へ出さうとしても分らない。ふと氣が付いて見ると書生は居ない。澤山居つた兄弟が一疋も見えぬ。肝心の母親さへ姿を隱して仕舞つた。其上今迄の所とは違つて無暗に明るい。眼を明いて居られぬ位だ。</p>
-              </div>
-            </div>
-            <div class="third-block">
-              <div class="third-block-logo">
-                <p>CAT2</p>
-              </div>
-              <div class="third-block-inner">
-                <div class="cat2-1">
-                  <section>
-                    <figure></figure>
-                      <div class="cat2-1-pic">
-                        <img src="img/cat2-1.png" alt="くつろいでいる猫の写真">
-                      </div>
-                    </figure>
-                    <blockquote>
-                      <div class="cat2-1-text">
-                        <p>果てな何でも容子が可笑いと、のそのそ這ひ出して見ると非常に痛い。吾輩は藁の上から急に笹原の中へ棄てられたのである。</p>
-                      </div>
-                    </blockquote>
-                  </section>
+        <div class="body-container">
+            <div class="body-top">
+                <div class="body-top-img">
+                    <img src="./img/header.png" alt="猫の横顔">
                 </div>
-                <div class="cat2-2">
-                  <section>
-                    <figure>
-                      <div lass="cat2-2-pic">
-                        <img src="img/cat2-2.png" alt="柵にもたれている猫の写真">
-                      </div>
-                    </figure>
+            </div>
+            <div class="body-txt-top">
+                <div class="same-width">
                     <blockquote>
-                      <div class="cat2-2-text">
-                        <p>漸くの思ひで笹原を這ひ出すと向ふに大きな池がある。吾輩は池の前に坐つてどうしたらよからうと考へて見た。別に是といふ分別も出ない。</p>
-                      </div>
+                        <article>
+                            <section>
+                                <h1>吾輩は猫である。<br class="br-sp"><br class="br-sp">名前はまだ無い。</h1>
+                            </section>
+                            <section>
+                                <p>どこで生れたか頓と見當がつかぬ。<br>何でも薄暗いじめじめした所で<br>ニヤーニヤー泣いて居た事丈は記憶して居る<br> 吾輩はこゝで始めて人間といふものを見た。
+                                </p>
+                            </section>
+                            <section>
+                                <p>然もあとで聞くとそれは書生といふ人間中で一番獰悪な種族であつたさうだ。<br> 此書生といふのは時々我々を捕へて煮て食ふといふ話である。</p>
+                            </section>
+                            <section id="reigai">
+                                然し其當時は何といふ考もなかつたから別段恐しいとも思はなかつた。<br> 但彼の掌に載せられてスーと持ち上げられた時<br> 何だかフハフハした感じが有つた許りである。
+                            </section>
+                        </article>
                     </blockquote>
-                  </section>
                 </div>
-              </div>
             </div>
-          </div>
+            <div class="body-container-second">
+                <div class="same-width">
+                    <!--50%のボックスを作る。-->
+                    <div class="body-container-second-logo">
+                        <p>CAT1</p>
+                    </div>
+                    <div class="second-block">
+                        <div class="second-block-img btn order1">
+                            <figure>
+                                <img src="img/cat1-1.png" alt="抱かれている猫の写真">
+                            </figure>
+                        </div>
+                        <div class="second-block-txt order2　order-left">
+                            <p>掌の上で少し落ち付いて書生の顔を見たのが所謂人間といふものゝ見始であらう。此時妙なものだと思つた感じが今でも殘つて居る。第一毛を以て装飾されべき筈の顔がつるつるして丸で薬罐だ。其後猫にも大分逢つたがこんな片輪には一度も出會はした事がない。加之顔の眞中が餘りに突起して居る。
+                            </p>
+                        </div>
+                        <div class="second-block-txt btn order3 order-left">
+                            <p>そうして其穴の中から時々ぷうぷうと烟を吹く。どうも咽せぽくて實に弱つた。是が人間の飲む烟草といふものである事は漸く此頃知つた。此書生の掌の裏でしばらくはよい心持に坐つて居つたが、暫くすると非常な速力で運轉し始めた。書生が動くのか自分丈が動くのか分らないが無暗に眼が廻る。胸が惡くなる。
+                            </p>
+                        </div>
+                        <div class="second-block-img order4">
+                            <figure>
+                                <img src="img/cat1-2.png" alt="二匹の猫の写真">
+                            </figure>
+                        </div>
+                        <div class="second-block-img btn order5">
+                            <figure>
+                                <img src="img/cat1-3.png" alt="あくびをしている猫の写真">
+                            </figure>
+                        </div>
+                        <div class="second-block-txt order6 order-left">
+                            <p>到底助からないと思つて居ると、どさりと音がして眼から火が出た。夫迄は記憶して居るがあとは何の事やらいくら考へ出さうとしても分らない。ふと氣が付いて見ると書生は居ない。澤山居つた兄弟が一疋も見えぬ。肝心の母親さへ姿を隱して仕舞つた。其上今迄の所とは違つて無暗に明るい。眼を明いて居られぬ位だ。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="third-block">
+                        <div class="third-block-logo">
+                            <p>CAT2</p>
+                        </div>
+                        <div class="third-block-inner">
+                            <div class="cat2-1">
+                                <section>
+                                    <figure></figure>
+                                    <div class="cat2-1-pic">
+                                        <img src="img/cat2-1.png" alt="くつろいでいる猫の写真">
+                                    </div>
+                                    </figure>
+                                    <blockquote>
+                                        <div class="cat2-1-text">
+                                            <p>果てな何でも容子が可笑いと、のそのそ這ひ出して見ると非常に痛い。吾輩は藁の上から急に笹原の中へ棄てられたのである。</p>
+                                        </div>
+                                    </blockquote>
+                                </section>
+                            </div>
+                            <div class="cat2-2">
+                                <section>
+                                    <figure>
+                                        <div lass="cat2-2-pic">
+                                            <img src="img/cat2-2.png" alt="柵にもたれている猫の写真">
+                                        </div>
+                                    </figure>
+                                    <blockquote>
+                                        <div class="cat2-2-text">
+                                            <p>漸くの思ひで笹原を這ひ出すと向ふに大きな池がある。吾輩は池の前に坐つてどうしたらよからうと考へて見た。別に是といふ分別も出ない。</p>
+                                        </div>
+                                    </blockquote>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fourth-block">
+                <div class="fourth-inner-block">
+                    <div class="background-cat">
+                        <img src="img/catbg.png" alt="ハイビスカスと猫の写真">
+                    </div>
+                    <div class="white-block">
+                        <div class="white-inner-block">
+                            <article>
+                                <blockquote>
+                                    <p>ニヤー、ニヤーと試みにやつて見たが誰も來ない。其内池の上をさらさらと風が渡つて日が暮れかゝる。腹が非常に減つて來た。
+                                        泣き度くても聲が出ない。仕方がない、何でもよいから食物のある所迄あるかうと決心をしてそろりそろりと池を左りに廻り始めた。
+                                        どうも非常に苦しい。そこを我慢して無理やりに這つて行くと漸くの事で何となく人間臭い所へ出た。
+                                        此所へ這入つたら、どうにかなると思つて竹垣の崩れた穴から、とある邸内にもぐり込んだ。</p>
+                                </blockquote>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="info-block">
+                <div class="same-width">
+                    <div class="info-logo">
+                        <p>CAT3</p>
+                    </div>
+                    <div class="info-group">
+                        <div class="info-block-detail">
+                            <p><span class="date">2018.02.09</span><span class="solid">新着</span><span
+                                    class="txt"><q>縁は不思議なもので、もし此竹垣が破れて居なかつたなら、</q></span></p>
+                        </div>
+                        <div class="info-block-detail">
+                            <p><span class="date">2018.02.09</span><span class="solid">新着</span><span
+                                    class="txt"><q>吾輩は遂に路傍に餓死したかも知れんのである。一樹の蔭とはよく云つたものだ。</q></span></p>
+                        </div>
+                        <div class="info-block-detail">
+                            <p><span class="date">2018.02.09</span><span class="solid">新着</span><span
+                                    class="txt"><q>此垣根の穴は今日に至る迄吾輩が隣家の三毛を訪問する時の通路になつて居る。</q></span></p>
+                        </div>
+                        <div class="info-block-detail">
+                            <p><span class="date">2018.02.09</span><span class="solid">新着</span><span
+                                    class="txt"><q>偖邸へは忍び込んだものゝ</q></span></p>
+                        </div>
+                        <div class="info-block-detail">
+                            <p><span class="date">2018.02.09</span><span class="solid">新着</span><span
+                                    class="txt"><q>是から先どうして善いか分らない。其内に暗くなる、腹は減る、寒さは寒し、雨が降つて來るといふ
+                                        始末でもう一刻も猶豫が出來なくなつた。</q></span></p>
+                        </div>
+                        <div class="info-block-detail"></div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="fourth-block">
-          <div class="fourth-inner-block">
-            <div class="background-cat">
-              <img src="img/catbg.png" alt="ハイビスカスと猫の写真">
-            </div>
-            <div class="white-block">
-              <div class="white-inner-block">
-                <article>
-                  <blockquote>
-                    <p>ニヤー、ニヤーと試みにやつて見たが誰も來ない。其内池の上をさらさらと風が渡つて日が暮れかゝる。腹が非常に減つて來た。 泣き度くても聲が出ない。仕方がない、何でもよいから食物のある所迄あるかうと決心をしてそろりそろりと池を左りに廻り始めた。 どうも非常に苦しい。そこを我慢して無理やりに這つて行くと漸くの事で何となく人間臭い所へ出た。 此所へ這入つたら、どうにかなると思つて竹垣の崩れた穴から、とある邸内にもぐり込んだ。</p>
-                  </blockquote>
-                </article>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="info-block">
-          <div class="same-width">
-            <div class="info-logo">
-              <p>CAT3</p>
-            </div>
-            <div class="info-group">
-              <div class="info-block-detail">
-                <p><span class="date">2018.02.09</span><span class="solid">新着</span><span class="txt"><q>縁は不思議なもので、もし此竹垣が破れて居なかつたなら、</q></span></p>
-              </div>
-              <div class="info-block-detail">
-                <p><span class="date">2018.02.09</span><span class="solid">新着</span><span class="txt"><q>吾輩は遂に路傍に餓死したかも知れんのである。一樹の蔭とはよく云つたものだ。</q></span></p>
-              </div>
-              <div class="info-block-detail">
-                <p><span class="date">2018.02.09</span><span class="solid">新着</span><span class="txt"><q>此垣根の穴は今日に至る迄吾輩が隣家の三毛を訪問する時の通路になつて居る。</q></span></p>
-              </div>
-              <div class="info-block-detail">
-                <p><span class="date">2018.02.09</span><span class="solid">新着</span><span class="txt"><q>偖邸へは忍び込んだものゝ</q></span></p>
-              </div>
-              <div class="info-block-detail">
-                <p><span class="date">2018.02.09</span><span class="solid">新着</span><span class="txt"><q>是から先どうして善いか分らない。其内に暗くなる、腹は減る、寒さは寒し、雨が降つて來るといふ 始末でもう一刻も猶豫が出來なくなつた。</q></span></p>
-              </div>
-              <div class="info-block-detail"></div>
-            </div>
-          </div>
-        </div>
-      </div>
     </main>
     <footer>
-      <div class="footer-container-top">
-        <div class="same-width">
-          <div class="footer-group">
-            <div class="footer-block1">
-              <div class="footer-logo">
-                <aside>
-                  <p><Q>主人は餘り口を聞かぬ人と見えた。</Q></p>
-                </aside>
-              </div>
-              <div class="footer-txt">
-                <aside>
-                  <ul>
-                    <li><q>下女は口惜しさうに</q></li>
-                    <li><q>吾輩を臺所へ抛り出した。</q></li>
-                    <li><q>かくして吾輩は遂に此家を</q></li>
-                    <li><q>自分の住家と</q></li>
-                    <li><q>極める事にしたのである。</q></li>
-                  </ul>
-                </aside>
-              </div>
+        <div class="footer-container-top">
+            <div class="same-width">
+                <div class="footer-group">
+                    <div class="footer-block1">
+                        <div class="footer-logo">
+                            <aside>
+                                <p><Q>主人は餘り口を聞かぬ人と見えた。</Q></p>
+                            </aside>
+                        </div>
+                        <div class="footer-txt">
+                            <aside>
+                                <ul>
+                                    <li><q>下女は口惜しさうに</q></li>
+                                    <li><q>吾輩を臺所へ抛り出した。</q></li>
+                                    <li><q>かくして吾輩は遂に此家を</q></li>
+                                    <li><q>自分の住家と</q></li>
+                                    <li><q>極める事にしたのである。</q></li>
+                                </ul>
+                            </aside>
+                        </div>
+                    </div>
+                    <div class="footer-block2">
+                        <div class="footer-logo">
+                            <aside>
+                                <p>主人は餘り口を聞かぬ人と見えた。</p>
+                            </aside>
+                        </div>
+                        <div class="footer-txt">
+                            <aside>
+                                <ul>
+                                    <li><q>下女は口惜しさうに</q></li>
+                                    <li><q>吾輩を臺所へ抛り出した。</q></li>
+                                    <li><q>かくして吾輩は遂に此家を</q></li>
+                                    <li><q>自分の住家と</q></li>
+                                    <li><q>極める事にしたのである。</q></li>
+                                </ul>
+                            </aside>
+                        </div>
+                    </div>
+                    <div class="footer-block3">
+                        <div class="footer-logo">
+                            <aside>
+                                <p>主人は餘り口を聞かぬ人と見えた。</p>
+                            </aside>
+                        </div>
+                        <div class="footer-txt">
+                            <aside>
+                                <ul>
+                                    <li><q>下女は口惜しさうに</q></li>
+                                    <li><q>吾輩を臺所へ抛り出した。</q></li>
+                                    <li><q>かくして吾輩は遂に此家を</q></li>
+                                    <li><q>自分の住家と</q></li>
+                                    <li><q>極める事にしたのである。</q></li>
+                                </ul>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="footer-block2">
-              <div class="footer-logo">
-                <aside>
-                  <p>主人は餘り口を聞かぬ人と見えた。</p>
-                </aside>
-              </div>
-              <div class="footer-txt">
-                <aside>
-                  <ul>
-                    <li><q>下女は口惜しさうに</q></li>
-                    <li><q>吾輩を臺所へ抛り出した。</q></li>
-                    <li><q>かくして吾輩は遂に此家を</q></li>
-                    <li><q>自分の住家と</q></li>
-                    <li><q>極める事にしたのである。</q></li>
-                  </ul>
-                </aside>
-              </div>
-            </div>
-            <div class="footer-block3">
-              <div class="footer-logo">
-                <aside>
-                  <p>主人は餘り口を聞かぬ人と見えた。</p>
-                </aside>
-              </div>
-              <div class="footer-txt">
-                <aside>
-                  <ul>
-                    <li><q>下女は口惜しさうに</q></li>
-                    <li><q>吾輩を臺所へ抛り出した。</q></li>
-                    <li><q>かくして吾輩は遂に此家を</q></li>
-                    <li><q>自分の住家と</q></li>
-                    <li><q>極める事にしたのである。</q></li>
-                  </ul>
-                </aside>
-              </div>
-            </div>
-            </div>
-          </div>
         </div>
-      </div>
-      <div class="footer-container-bottom">
-        <div class="footer-bottom-block">
-          <div class="footer-bottom-logo">
-            <a href="index.html"><img src="img/CAT-2.png" alt="ページ下、CATのロゴ" title="Home"></a>
-          </div>
-          <div class="footer-bottom-txt">
-            <p>copyright 2018 Iam a cat</p>
-          </div>
         </div>
-      </div>
+        <div class="footer-container-bottom">
+            <div class="footer-bottom-block">
+                <div class="footer-bottom-logo">
+                    <a href="index.html"><img src="img/CAT-2.png" alt="ページ下、CATのロゴ" title="Home"></a>
+                </div>
+                <div class="footer-bottom-txt">
+                    <p>copyright 2018 Iam a cat</p>
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="jQuery/script.js" type="text/javascript" charset="utf-8"></script>
-  </body>
+</body>
+
 </html>
