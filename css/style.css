@@ -507,8 +507,11 @@ textarea {
 }
 
 .catLogo {
-    font-size: 26fpx;
+    font-size: 26px;
     font-weight: bold;
+}
+.catTxt{
+    font-size:18px;
 }
 
 /*boxデザインテンプレート*/
