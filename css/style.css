@@ -332,10 +332,10 @@ ul .parent h2 {
 }
 
 .footer-bottom-block {
-    width: 95%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .footer-bottom-logo img {
@@ -625,12 +625,12 @@ border:solid 3px red;
         margin: 0 auto;
     }
     .footer-bottom-block {
-        width: 95%;
+        width: 85%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: flex-start;
-        margin: 0 auto;
+        margin: 0;
     }
     .txt {
         float: none;
